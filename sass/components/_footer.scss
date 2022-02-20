@@ -1,0 +1,17 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+footer{
+    padding: 15px 0;
+    text-align: center;
+    li{
+        @include font (ff1, 14px, 500, $gray);
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .line{
+        width: 1px;
+        height: 14px;
+        background: $gray;
+    }
+}

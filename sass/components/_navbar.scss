@@ -1,0 +1,88 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+nav {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+
+    ul {
+        padding-top: 30px;
+
+        li {
+            margin: 0 10px;
+
+            .left {
+                @include font($ff2, 16px, 500, $light);
+                transition: .4s;
+                position: relative;
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    bottom: -5px;
+                    left: 0;
+                    width: 0;
+                    height: 2px;
+                    background: $main;
+                    transition: .4s;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+
+                &:hover {
+                    color: $main;
+                }
+            }
+            .right {
+                @include font($ff2, 16px, 500, $dark);
+                transition: .4s;
+                position: relative;
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    bottom: -5px;
+                    left: 0;
+                    width: 0;
+                    height: 2px;
+                    background: $light;
+                    transition: .4s;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+
+                &:hover {
+                    color: $light;
+                }
+            }
+
+        }
+    }
+    .cart{
+        margin-top: 30px;
+        a{
+            @include font($ff1, 16px, 500, $dark);
+            transition: .4s;
+        i{
+            margin-right: 4px;
+            margin-top: 4px;
+            transition: .4s;
+        }
+        }
+        &:hover a{ 
+            color: $light;
+        }
+    }
+
+    .logo {
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+}

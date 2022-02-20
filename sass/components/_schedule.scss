@@ -1,0 +1,41 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#schedule-part{
+    margin-top: 50px;
+    .schedule{
+        margin-top: 60px;
+        h3{
+            @include font ($ff2, 20px, 500, $dark)
+        }
+        .table{
+            margin-top: 30px;
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #dddddd;
+
+            thead{
+                background: $main;
+                tr{
+                    th{
+                        @include font ($ff2, 20px, 500, $dark);
+                        border: 1px solid #dddddd;
+                        padding: 15px;
+                    }
+                }
+            }
+            tbody{
+                &:not(:first-child) {
+                    border-top: 0px solid currentColor;
+                }
+                tr{
+                    td{
+                        @include font ($ff1, 13px, 500, $gray);
+                        border: 1px solid #dddddd;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

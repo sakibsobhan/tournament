@@ -1,0 +1,150 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#news-part {
+    margin-top: 100px;
+
+    .news-slider {
+        margin-top: 50px;
+        position: relative;
+
+        .item {
+            position: relative;
+
+            .img {
+                clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+                position: relative;
+                overflow: hidden;
+                width: 370px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+
+
+                }
+
+                .overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.6);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    opacity: 0;
+                    transition: .4s;
+
+                    p {
+                        @include font ($ff1, 16px, 500, $light);
+                        margin-left: -100px;
+                        transition: .4s;
+                    }
+                }
+            }
+
+            .details {
+                position: absolute;
+                right: 14%;
+                top: 28px;
+                overflow: hidden;
+                width: 370px;
+                background: #f1f1f1;
+                padding: 30px;
+                padding-left: 90px;
+                clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+
+                h3 {
+                    @include font ($ff3, 20px, 500, $dark);
+                }
+
+                p {
+                    @include font ($ff1, 14px, 500, $dark);
+                    margin: 30px 0;
+                }
+
+                .bottom {
+                    h5 {
+                        @include font ($ff1, 14px, 500, #777777);
+
+                        i {
+                            margin-right: 5px;
+
+                        }
+
+                        &:nth-child(2) {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+
+            &:hover .overlay {
+                opacity: 1;
+            }
+        }
+
+        .prev {
+            font-size: 35px;
+            position: absolute;
+            bottom: -100px;
+            left: 45%;
+            z-index: 1;
+            color: $gray;
+
+            &::after {
+                content: "";
+                position: absolute;
+                right: 11px;
+                top: 2px;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                z-index: -1;
+                border: 1px solid $gray;
+                transition: .4s;
+            }
+            &:hover:after {
+                right: -14px;
+                width: 30px;
+                height: 30px;
+                background: $main;
+                border-radius: 50%;
+                border: 1px solid $main;
+            }
+        }
+
+
+        .next {
+            font-size: 35px;
+            position: absolute;
+            bottom: -100px;
+            right: 46%;
+            z-index: 1;
+            color: $gray;
+
+            &:after {
+                content: "";
+                position: absolute;
+                right: -7px;
+                top: 2px;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                z-index: -1;
+                border: 1px solid $gray;
+                transition: .4s;
+            }
+            &:hover:after {
+                right: 21px;
+                width: 30px;
+                height: 30px;
+                background: $main;
+                border-radius: 50%;
+                border: 1px solid $main;
+            }
+        }
+    }
+}

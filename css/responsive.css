@@ -1,0 +1,827 @@
+@media (min-width: 320px) and (max-width: 575px) {
+    header {
+        padding-top: 15px;
+    }
+
+    header .left {
+        display: none;
+    }
+
+    header .right:after {
+        display: none;
+    }
+
+    header .right form {
+        margin-left: 0px;
+    }
+
+    header .right {
+        margin-left: 20px;
+    }
+
+    header .right .line {
+        display: none;
+    }
+
+    header .right form {
+        width: 90px;
+    }
+
+    header .search-box {
+        margin-left: 0px;
+    }
+
+    header .right a:hover {
+        color: rgb(0, 0, 0);
+    }
+
+    header .right a {
+        margin-right: 35px;
+        font-size: 12px;
+    }
+
+    nav {
+        top: 60px;
+    }
+
+    nav .navbar-brand img {
+        width: 50%;
+        margin-left: 85px;
+    }
+
+    #banner-part {
+        margin-top: -133px;
+    }
+
+    .navbar-toggler {
+        margin-top: -100px;
+    }
+
+    nav .coll {
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        background: #ffcc33;
+        left: 12px;
+    }
+
+    nav ul li .left {
+        color: #222222 !important;
+    }
+
+    nav ul li .right {
+        color: #222222 !important;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    nav .cart {
+        margin-top: 0px;
+        margin-left: 108px;
+        margin-bottom: 20px;
+    }
+
+    #banner-part .banner-slider .item .overlay .overlay2 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #banner-part .banner-slider .item .banner-img {
+        display: none;
+    }
+
+    #banner-part .banner-slider .item .overlay .overlay2 .info h1 {
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+
+    #banner-part .banner-slider .item .overlay .overlay2 .info {
+        text-align: center;
+        padding-top: 215px;
+    }
+
+    #banner-part .banner-slider .prev {
+        display: none;
+    }
+
+    #banner-part .banner-slider .next {
+        display: none;
+    }
+
+    #countdown-active1 .single-counter {
+        padding: 10px !important;
+        font-size: 10px !important;
+    }
+
+    #countdown-active2 .single-counter {
+        padding: 10px !important;
+        font-size: 10px !important;
+    }
+
+    #countdown-active3 .single-counter {
+        padding: 10px !important;
+        font-size: 10px !important;
+    }
+
+    #banner-part .banner-slider .item .overlay .overlay2 .info .btn {
+        padding-top: 35px;
+    }
+
+    #banner-part .banner-slider .item .overlay .overlay2 .info .btn a {
+        font-size: 12px;
+        padding: 5px 5px !important;
+        margin: 0 5px;
+    }
+
+    #banner-part .banner-slider .prev {
+        top: 75%;
+        left: 115px;
+    }
+
+    #banner-part .banner-slider .next {
+        top: 75%;
+        right: 100px;
+    }
+
+    #schedule-part {
+        margin-top: 0px;
+    }
+
+    .title h1 {
+        font-size: 20px;
+    }
+
+    #about-part .slider .top-slider .item .details h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    #about-part .slider .top-slider .item::after {
+        width: 100%;
+        height: 500px;
+    }
+
+    #about-part .slider .top-slider .item .details p {
+        font-size: 10px;
+        padding-right: 0;
+        margin-top: 0;
+    }
+
+    #about-part .slider .top-slider .item .details .btn {
+        padding: 5px;
+        margin-top: 20px;
+    }
+
+    #about-part .slider .top-slider .item .detailsz .btn a {
+        font-size: 12px;
+    }
+
+    #about-part .slider .top-slider .item .team-img {
+        margin-top: -75px;
+        margin-left: 105px;
+    }
+
+    #about-part .slider .top-slider .item .team-img img {
+        width: 50%;
+    }
+
+    #about-part .slider .top-slider .item .details {
+        text-align: center;
+    }
+
+    #about-part .slider .top-slider .next {
+        top: 85%;
+    }
+
+    #about-part .slider .top-slider .prev {
+        top: 85%;
+    }
+
+    #about-part .slider .bottom-slider .item::after {
+        width: 100%;
+    }
+
+    #about-part .slider .bottom-slider .item .team-img img {
+        width: 50%;
+    }
+
+    #about-part .slider .bottom-slider .item .team-img {
+        margin-top: 130px;
+        margin-left: 80px;
+    }
+
+    #about-part .slider .bottom-slider .item .details {
+        margin-top: 0px;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    #about-part .slider .bottom-slider .item .details p {
+        font-size: 10px;
+        margin-top: 00px;
+    }
+
+    #about-part .slider .bottom-slider .item .details h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    #about-part .slider .bottom-slider .item::after {
+        height: 440px;
+    }
+
+    #about-part .slider .bottom-slider .item .details .btn {
+        padding: 5px;
+        margin-top: 20px;
+    }
+
+    #about-part .slider .bottom-slider .item .details .btn a {
+        font-size: 12px;
+    }
+
+    #video-part a {
+        overflow: hidden;
+    }
+
+    #video-part a .video .overlay {
+        padding: 20px;
+        opacity: 1;
+    }
+
+    #video-part a .video .overlay i {
+        font-size: 20px;
+    }
+
+    #video-part a .video .overlay h3 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    #popular-team-part .title {
+        margin-bottom: 50px;
+    }
+
+    #popular-team-part .nav .nav-link {
+        font-size: 10px;
+        padding: 10px 0px;
+    }
+
+    #popular-team-part .nav h3 {
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+
+    #popular-team-part .tab-content .tab-pane .left .left-slider {
+        display: none;
+    }
+
+    #popular-team-part .tab-content .tab-pane .left .line {
+        display: none;
+    }
+
+    #popular-team-part .tab-content .tab-pane .right {
+        margin-top: 0;
+    }
+
+    #popular-team-part .tab-content .tab-pane .right .item table {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    #popular-team-part .tab-content .tab-pane .right .item table tr td {
+        font-size: 12px;
+        padding: 0px 15px;
+    }
+
+    #popular-team-part .tab-content .tab-pane .right .item img {
+        width: 25%;
+        margin-left: 75px;
+        margin-bottom: 20px;
+    }
+    #product-part .shop .tab-content .shop-item .item .item-details h4 {
+        margin-bottom: 20px;
+    }
+
+    #product-part .shop ul li {
+        margin: 0;
+    }
+
+    #product-part .shop ul li button {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+
+    #testi-part .testi-slider .up-slider .item .text {
+        padding: 15px;
+        width: 90%;
+    }
+
+    #testi-part .testi-slider .up-slider .item .text p {
+        font-size: 10px;
+    }
+
+    #news-part .news-slider .item .details {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        top: 0;
+        right: 0;
+    }
+
+    #news-part .news-slider .item .img {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #news-part .news-slider .item .img .overlay {
+        align-items: flex-end;
+        opacity: 1;
+    }
+
+    #news-part .news-slider .item .img .overlay p {
+        font-size: 12px;
+        margin-left: -20px;
+        margin-bottom: 20px;
+    }
+
+    #news-part .news-slider .item .details .bottom h5 {
+        font-size: 10px;
+    }
+
+    #news-part .news-slider .next {
+        right: 35%;
+    }
+
+    #news-part .news-slider .prev {
+        left: 35%;
+    }
+
+    #contact-part .img {
+        display: none;
+    }
+
+    #contact-part {
+        margin-top: 160px;
+    }
+
+    #contact-part .details .left {
+        margin-bottom: 40px;
+    }
+
+    #contact-part .details .left img {
+        width: 50%;
+    }
+
+    #contact-part .details h3 {
+        font-size: 16px;
+    }
+
+    #contact-part .details .middle {
+        margin-bottom: 30px;
+    }
+
+    #contact-part .details .middle2 {
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+
+    #contact-part .details .right {
+        margin-left: 50px;
+    }
+
+    #contact-part .details .right .post .info h5 {
+        font-size: 12px;
+    }
+
+    #contact-part .details .right .post .info p {
+        font-size: 10px;
+    }
+
+    footer ul li {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    footer .line {
+        height: 8px;
+    }
+}
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    header {
+        padding-top: 15px;
+    }
+
+    header .left {
+        display: none;
+    }
+
+    header .right:after {
+        display: none;
+    }
+
+    header .right form {
+        margin-left: 0px;
+    }
+
+    header .right {
+        margin-left: 20px;
+    }
+
+    header .right .line {
+        display: none;
+    }
+
+    header .right form {
+        width: 90px;
+    }
+
+    header .search-box {
+        margin-left: 0px;
+    }
+
+    header .right a:hover {
+        color: rgb(0, 0, 0);
+    }
+
+    header .right a {
+        margin-right: 160px;
+        font-size: 12px;
+    }
+
+    nav {
+        top: 60px;
+    }
+
+    nav .navbar-brand img {
+        width: 48%;
+        margin-left: 162px;
+    }
+
+    #banner-part {
+        margin-top: -133px;
+    }
+
+    .navbar-toggler {
+        margin-top: -45px;
+    }
+
+    nav .coll {
+        position: absolute;
+        top: 145px;
+        text-align: center;
+        background: #ffcc33;
+        left: 0;
+    }
+
+    nav ul li .left {
+        color: #222222 !important;
+    }
+
+    nav ul li .right {
+        color: #222222 !important;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    nav .cart {
+        margin-top: 0px;
+        margin-left: 242px;
+        margin-bottom: 20px;
+    }
+
+    #banner-part .banner-slider .item .overlay .overlay2 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #banner-part .banner-slider .item .banner-img {
+        display: none;
+    }
+
+    #banner-part .banner-slider .item .overlay .overlay2 .info h1 {
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+
+    #banner-part .banner-slider .item .overlay .overlay2 .info {
+        text-align: center;
+        padding-top: 215px;
+    }
+
+    #banner-part .banner-slider .prev {
+        display: none;
+    }
+
+    #banner-part .banner-slider .next {
+        display: none;
+    }
+
+    #countdown-active1 .single-counter {
+        padding: 10px !important;
+        font-size: 10px !important;
+    }
+
+    #countdown-active2 .single-counter {
+        padding: 10px !important;
+        font-size: 10px !important;
+    }
+
+    #countdown-active3 .single-counter {
+        padding: 10px !important;
+        font-size: 10px !important;
+    }
+
+    #banner-part .banner-slider .item .overlay .overlay2 .info .btn {
+        padding-top: 35px;
+    }
+
+    #banner-part .banner-slider .item .overlay .overlay2 .info .btn a {
+        font-size: 12px;
+        padding: 5px 5px !important;
+        margin: 0 5px;
+    }
+
+    #banner-part .banner-slider .prev {
+        top: 75%;
+        left: 115px;
+    }
+
+    #banner-part .banner-slider .next {
+        top: 75%;
+        right: 100px;
+    }
+
+    #schedule-part {
+        margin-top: 0px;
+    }
+
+    .title h1 {
+        font-size: 20px;
+    }
+
+    #about-part .slider .top-slider .item .details h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    #about-part .slider .top-slider .item::after {
+        width: 100%;
+        height: 500px;
+    }
+
+    #about-part .slider .top-slider .item .details p {
+        font-size: 10px;
+        padding-right: 0;
+        margin-top: 0;
+    }
+
+    #about-part .slider .top-slider .item .details .btn {
+        padding: 5px;
+        margin-top: 20px;
+    }
+
+    #about-part .slider .top-slider .item .detailsz .btn a {
+        font-size: 12px;
+    }
+
+    #about-part .slider .top-slider .item .team-img {
+        margin-top: -75px;
+        margin-left: 174px;
+    }
+
+    #about-part .slider .top-slider .item .team-img img {
+        width: 50%;
+    }
+
+    #about-part .slider .top-slider .item .details {
+        text-align: center;
+    }
+
+    #about-part .slider .top-slider .next {
+        top: 107%;
+    }
+
+    #about-part .slider .top-slider .prev {
+        top: 107%;
+    }
+
+    #about-part .slider .bottom-slider .item::after {
+        width: 100%;
+    }
+
+    #about-part .slider .bottom-slider .item .team-img img {
+        width: 30%;
+        margin-left: 80px;
+        margin-top: -50px;
+    }
+
+    #about-part .slider .bottom-slider .item .team-img {
+        margin-top: 195px;
+        margin-left: 80px;
+    }
+
+    #about-part .slider .bottom-slider .item .details {
+        margin-top: 0px;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    #about-part .slider .bottom-slider .item .details p {
+        font-size: 10px;
+        margin-top: 00px;
+    }
+
+    #about-part .slider .bottom-slider .item .details h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    #about-part .slider .bottom-slider .item::after {
+        height: 440px;
+    }
+
+    #about-part .slider .bottom-slider .item .details .btn {
+        padding: 5px;
+        margin-top: 20px;
+    }
+
+    #about-part .slider .bottom-slider .item .details .btn a {
+        font-size: 12px;
+    }
+
+    #video-part a {
+        overflow: hidden;
+    }
+
+    #video-part a .video .overlay {
+        padding: 20px;
+        opacity: 1;
+    }
+
+    #video-part a .video .overlay i {
+        font-size: 20px;
+    }
+
+    #video-part a .video .overlay h3 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    #popular-team-part .title {
+        margin-bottom: 50px;
+    }
+
+    #popular-team-part .nav .nav-link {
+        font-size: 10px;
+        padding: 10px 0px;
+    }
+
+    #popular-team-part .nav h3 {
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+
+    #popular-team-part .tab-content .tab-pane .left .left-slider {
+        display: none;
+    }
+
+    #popular-team-part .tab-content .tab-pane .left .line {
+        display: none;
+    }
+
+    #popular-team-part .tab-content .tab-pane .right {
+        margin-top: 0;
+    }
+
+    #popular-team-part .tab-content .tab-pane .right .item table {
+       
+        margin-left: 10px;
+    }
+
+    #popular-team-part .tab-content .tab-pane .right .item table tr td {
+        font-size: 12px;
+        padding: 0px 15px;
+    }
+
+    #popular-team-part .tab-content .tab-pane .right .item img {
+        width: 30%;
+        margin-left: 75px;
+        margin-bottom: 20px;
+    }
+    #product-part .shop .tab-content .shop-item .item .item-details h4 {
+        margin-bottom: 20px;
+    }
+    #product-part .shop .tab-content .shop-item  .item{
+        margin: 0 10px;
+    }
+
+    #product-part .shop ul li {
+        margin: 0;
+    }
+
+    #product-part .shop ul li button {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+
+    #testi-part .testi-slider .up-slider .item .text {
+        padding: 15px;
+        width: 90%;
+    }
+
+    #testi-part .testi-slider .up-slider .item .text p {
+        font-size: 10px;
+    }
+
+    #news-part .news-slider .item .details {
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+        top: 13% !important; 
+        right: 0;
+        padding-left: 90px !important;
+        padding: 20px;
+    }
+   
+
+    #news-part .news-slider .item .img {
+        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+    }
+
+    #news-part .news-slider .item .img .overlay {
+        align-items: center;
+        opacity: 1;
+    }
+
+    #news-part .news-slider .item .img .overlay p {
+        font-size: 12px;
+        margin-left: -50px;
+        margin-bottom: 20px;
+    }
+
+    #news-part .news-slider .item .details .bottom h5 {
+        font-size: 10px;
+    }
+
+    #news-part .news-slider .next {
+        right: 35%;
+    }
+
+    #news-part .news-slider .prev {
+        left: 35%;
+    }
+
+    #contact-part .img {
+        display: none;
+    }
+
+    #contact-part {
+        margin-top: 160px;
+    }
+
+    #contact-part .details .left {
+        margin-bottom: 40px;
+    }
+
+    #contact-part .details .left img {
+        width: 50%;
+    }
+
+    #contact-part .details h3 {
+        font-size: 16px;
+    }
+
+    #contact-part .details .middle {
+        margin-bottom: 30px;
+    }
+
+    #contact-part .details .middle2 {
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+
+    #contact-part .details .right {
+        margin-left: 50px;
+    }
+
+    #contact-part .details .right .post .info h5 {
+        font-size: 12px;
+    }
+
+    #contact-part .details .right .post .info p {
+        font-size: 10px;
+    }
+
+    footer ul li {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    footer .line {
+        height: 8px;
+    }
+}
+
+/* --------end------- */

@@ -1,0 +1,116 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#contact-part{
+    margin-top: 250px;
+    position: relative;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.3);
+    .img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        filter: drop-shadow(0mm 0mm 1mm rgba(0, 0, 0, 0.3));
+    }
+    .details{
+        padding: 58px 0;
+        h3{
+            @include font ($ff3, 20px, 500, $dark);
+        }
+        .left{
+            p{
+                @include font ($ff1, 14px, 500, $dark);
+                margin-top: 28px;
+                padding: 0 45px;
+            }
+        }
+        .middle{
+            margin-left: 50px;
+           
+            .info{
+                margin-top: 20px;
+            }
+            i{
+                font-size: 25px;
+                margin-right: 20px;
+                margin-top: 10px;
+                color: $gray
+            }
+            p{
+                @include font ($ff1, 14px, 500, $gray);
+            }
+        }
+        .middle2{
+            .link{
+                margin-top: 20px;
+                ul{
+                    li{
+                        margin-bottom: 12px;
+                        margin-right: 43px;
+                        a{
+                            @include font ($ff1, 14px, 500, $gray);
+                            transition: .4s;
+                            &:hover{
+                                color: $main;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right{
+            .post{
+                margin-top: 20px;
+                .image{
+                    position: relative;
+                    img{
+                        width: 100%;
+                    }
+                    &:hover .overlay{
+                        opacity: 1;
+                    }
+                    .overlay{
+                        position: absolute;
+                        top: 8px;
+                        left: 8px;
+                        width: 80%;
+                        height: 80%;
+                        background: rgba(0, 0, 0, 0.6);
+                        border: 2px solid $main;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        opacity: 0;
+                        transition: .4s;
+                        i{
+                            color: $gray;
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            background: $main;
+                            line-height: 30px;
+                            text-align: center;
+                        }
+                    }
+                }
+                .info{
+                    margin-left: 20px;
+                    h5{
+                        @include font ($ff1, 14px, 500, $gray);
+                        margin-bottom: 16px;
+                    }
+                    p{
+                        @include font ($ff1, 14px, 500, #777777);
+                        margin-top: 5px;
+                    }
+                    .lk{
+                        p{
+                            margin-right: 20px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

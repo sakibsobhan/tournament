@@ -1,0 +1,156 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#popular-team-part {
+    margin-top: 100px;
+    .title{
+        margin-bottom: 100px;
+    }
+
+    .nav {
+        h3 {
+            @include font ($ff2, 20px, 500, $dark);
+            background: $main;
+            padding: 20px 30px;
+        }
+
+        .nav-link {
+            border: 1px solid #6d6d6d;
+            ;
+            border-radius: 0 !important;
+            @include font ($ff3, 16px, 500, $gray);
+            border-top: 0;
+            padding: 20px 0px;
+        }
+
+        .active {
+            background: transparent !important;
+            color: $main !important;
+        }
+
+    }
+
+    .tab-content {
+        .tab-pane {
+            padding: 59px;
+            .left {
+                position: relative;
+                .left-slider {
+                    position: relative;
+                    .item {
+                        margin: 0 10px;
+                        transform: scale(1);
+                        .content {
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 50%;
+                            border: 1px solid $main;
+                            margin: 15px 0;
+                            position: relative;
+                            overflow: hidden;
+                            text-align: center;
+                            background: $light;
+
+                            img {
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                transition: .4s;
+                            }
+
+                            .overlay {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                background: $light;
+                                z-index: -1;
+                                transition: .4s;
+                            }
+                        }
+                    }
+                    .slick-center{
+                        transform: scale(1.2);
+                        .content{
+                            .overlay{
+                                background: $main !important;
+                                width: 70px !important;
+                                height: 70px !important;
+                            }
+                            img{
+                                width: 70px;
+                                height: 70px;
+                            }
+                        }
+                    }
+                    .up {
+                        position: absolute;
+                        top: -40px;
+                        left: 30px;
+                        font-size: 25px;
+                        text-align: center;
+                        line-height: 40px;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        border: 1px solid $dark;
+                        color: $dark;
+                        transition: .4s;
+                        &:hover{
+                            background: $main;
+                            border: 1px solid $main;
+
+                        }
+                    }
+                    .down {
+                        position: absolute;
+                        bottom: -40px;
+                        left: 30px;
+                        font-size: 25px;
+                        text-align: center;
+                        line-height: 40px;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        border: 1px solid $dark;
+                        color: $dark;
+                        transition: .4s;
+                        &:hover{
+                            background: $main;
+                            border: 1px solid $main;
+
+                        }
+                    }
+                }
+                .line{
+                    background: url(../images/line.png);
+                    width: 1px;
+                    height: 337px;
+                    position: absolute;
+                    top: 0;
+                    left: 50px;
+                }
+            }
+            .right{
+                margin-top: -100px;
+                .item{
+                    table{
+                        tr{
+                            td{
+                                @include font ($ff2, 20px, 500, $dark);
+                                padding: 14px 46px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

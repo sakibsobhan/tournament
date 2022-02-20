@@ -1,0 +1,175 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+
+#about-part {
+    margin-top: 100px;
+
+    .slider {
+        .top-slider {
+            margin-top: 50px;
+
+            .item {
+                position: relative;
+
+                &:after {
+                    position: absolute;
+                    content: "";
+                    top: 60px;
+                    left: 0;
+                    width: 59.5%;
+                    height: 390px;
+                    background: #ffe596;
+                    z-index: -1;
+                }
+
+                .details {
+                    padding: 100px 0;
+
+                    h3 {
+                        @include font ($ff2, 20px, 500, $dark);
+                    }
+
+                    p {
+                        @include font ($ff1, 14px, 500, $gray);
+                        padding-right: 165px;
+                        margin-top: 30px;
+                    }
+
+                    .btn {
+                        padding: 10px 20px;
+                        border: 1px solid $gray;
+                        margin-top: 60px;
+                        transition: .4s;
+
+                        &:hover {
+                            background: $gray;
+                        }
+
+                        &:hover a {
+                            color: $light
+                        }
+
+                        a {
+                            @include font ($ff3, 16px, 500, $gray);
+                        }
+                    }
+
+                }
+
+            }
+
+            .prev {
+                position: absolute;
+                color: $gray;
+                font-size: 30px;
+                top: 50%;
+                left: 50px;
+                z-index: 1;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    right: 11px;
+                    top: 0;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    z-index: -1;
+                    border: 1px solid $gray;
+                    transition: .4s;
+                }
+                &:hover:after {
+                    right: -15px;
+                    width: 30px;
+                    height: 30px;
+                    background: $light;
+                    border-radius: 50%;
+                    border: 1px solid $light;
+                }
+            }
+
+
+            .next {
+                position: absolute;
+                color: $gray;
+                font-size: 30px;
+                top: 50%;
+                right: 50px;
+                z-index: 1;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    right: -7px;
+                    top: 0;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    z-index: -1;
+                    border: 1px solid $gray;
+                    transition: .4s;
+                }
+                &:hover:after {
+                    right: 15px;
+                    width: 30px;
+                    height: 30px;
+                    background: $main;
+                    border-radius: 50%;
+                    border: 1px solid $main;
+                }
+            }
+        }
+
+        .bottom-slider {
+            .item {
+                position: relative;
+
+                &:after {
+                    position: absolute;
+                    content: "";
+                    top: 95px;
+                    right: 0;
+                    width: 62.5%;
+                    height: 390px;
+                    background: #ffe596;
+                    z-index: -1;
+                }
+
+                .details {
+                    text-align: right;
+                    padding: 100px 0;
+                    margin-top: 50px;
+
+                    h3 {
+                        @include font ($ff2, 20px, 500, $dark);
+                    }
+
+                    p {
+                        @include font ($ff1, 14px, 500, $gray);
+                        margin-top: 30px;
+                    }
+
+                    .btn {
+                        padding: 10px 20px;
+                        border: 1px solid $gray;
+                        margin-top: 60px;
+                        transition: .4s;
+
+                        &:hover {
+                            background: $gray;
+                        }
+
+                        &:hover a {
+                            color: $light
+                        }
+
+                        a {
+                            @include font ($ff3, 16px, 500, $gray);
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+}
